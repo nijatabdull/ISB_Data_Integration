@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51D69103-7CE9-45FE-AAA2-1392FCF92002}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISB_Model</RootNamespace>
+    <AssemblyName>ISB_Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Forma4\CompletionStatus_Forma4.cs" />
+    <Compile Include="Model\Forma4\DamageType_Forma4.cs" />
+    <Compile Include="Model\Forma4\DriverStatus_Forma4.cs" />
+    <Compile Include="Model\Forma4\DriverType_Forma4.cs" />
+    <Compile Include="Model\Forma4\Employee_Forma4.cs" />
+    <Compile Include="Model\Forma4\Forma4List.cs" />
+    <Compile Include="Model\Forma4\IncidentRegion_Forma4.cs" />
+    <Compile Include="Model\Forma4\IncidentStatus_Forma4.cs" />
+    <Compile Include="Model\Forma4\IncidentTypeList_Forma4.cs" />
+    <Compile Include="Model\Forma4\ParticipanTypeViewModel.cs" />
+    <Compile Include="Model\Forma4\PersonStatus_Forma4.cs" />
+    <Compile Include="Model\Forma4\PersonType_Forma4.cs" />
+    <Compile Include="Model\Forma4\Person_Forma4.cs" />
+    <Compile Include="Model\Forma4\PersonWrapperList_Forma4.cs" />
+    <Compile Include="Model\Forma4\TechnicalFailure_Forma4.cs" />
+    <Compile Include="Model\Forma4\VehicleType_Forma4.cs" />
+    <Compile Include="Model\Forma4\Vehicle_Forma4.cs" />
+    <Compile Include="Model\Forma4\VehicleWrapperList_Forma4.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_AuthPerson_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_BankAccount_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Creditor_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_CreditorAddress_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_CreditorContact_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Debitor_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_DebitorAddress_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_DebitorContact_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Address_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_BankBranch_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Bank_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Contact_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_ContractList_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_DelegatedAuthPerson_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_EmployeeList_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Employeer_Ancestor_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Employeer_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_EmploymentList_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_InsBankAccount_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_InstallmentList_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Invoice_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_PaymentList_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_Person_Life.cs" />
+    <Compile Include="Model\Life Insurance Model\ISB_SignerPerson_Life.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Attachment.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Beneficiary.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Claim.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\DamagedPerson.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\DamageList.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Incident.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\IncidentDamager.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\IncidentDetail.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\InsurancePolicy.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Payment.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Person.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Vehicle.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Verbal.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\Witnesses.cs" />
+    <Compile Include="Model\Non-Life Insurance Model\WitnessList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISB_Infra\ISB_Infra.csproj">
+      <Project>{2F133B66-7943-41A3-B0B7-DC03C556E998}</Project>
+      <Name>ISB_Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

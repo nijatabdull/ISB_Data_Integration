@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\obj\Debug\ISB_Model.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\obj\Debug\ISB_Model.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\bin\Debug\ISB_Model.dll
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\bin\Debug\ISB_Model.pdb
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\bin\Debug\ISB_Infra.dll
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\bin\Debug\ISB_Infra.pdb
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\obj\Debug\ISB_Model.csproj.CopyComplete
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\obj\Debug\ISB_Model.dll
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Model\obj\Debug\ISB_Model.pdb

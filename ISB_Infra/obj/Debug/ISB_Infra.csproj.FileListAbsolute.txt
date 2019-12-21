@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Infra\bin\Debug\ISB_Infra.dll
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Infra\bin\Debug\ISB_Infra.pdb
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Infra\obj\Debug\ISB_Infra.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Infra\obj\Debug\ISB_Infra.dll
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Infra\obj\Debug\ISB_Infra.pdb
+C:\Users\Admin\Desktop\Icbari Sugorta Burosu\Project\ISB_Service\ISB_Infra\obj\Debug\ISB_Infra.csprojAssemblyReference.cache
